@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fornecedor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Seja um dos nossos fornecedores!</title>
+</head>
+<body>
+    <form action="insertFornecedor.php" method="POST">
+        <div class="container">
+
+            <h1>Cadastre um fornecedor</h1>
+
+
+            <div class="inps">
+
+                <div class="i1">
+                    <input type="text" name="nomeFornecedor" placeholder="Nome:" required>
+                    <input type="text" name="contatoFornecedor" placeholder="Contato:" required>
+                </div>
+                
+    
+    
+                <div class="i2">
+                    <input type="email" name="emailFonecedor" placeholder="Email:" required>
+                    <input type="tel" name="nrTelefone" placeholder="Telefone:" required>
+                </div>
+                
+    
+    
+                <div class="i3">
+                    <input type="text" name="nmEndereco" placeholder="Endereço:" required>
+                </div>
+                
+            </div>
+
+
+            <div class="btn">
+                <input type="submit" value="Finalizar cadastro">
+            </div>
+            
+        </div>
+    </form> 
+</body>
+</html>

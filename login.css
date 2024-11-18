@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+form {
+    display: flex;
+    justify-content: end;
+}
+
+.container {
+    background-color: #1A0C43;
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    z-index: 1;
+}
+
+.container > h1 {
+    color: #ffff;
+    font-size: 8vh;
+    margin-top: 3vh;
+    margin-top: 6vh;
+    margin-bottom: 15vh;
+}
+
+
+.container input {
+    height: 6vh;
+    width: 40vw;
+    margin-bottom: 5vh;
+    padding: 2.1vh;
+    background-color: black; 
+    font-size: 2.6vh;
+    border: none;
+    border-radius: 0.5vh;
+    color: white;
+    box-shadow: 5px 10px 15px 1px black;
+}
+
+input::placeholder{
+    font-size: 2.6vh;
+    color: white;
+}
+
+
+a{
+    font-size: 2.6vh;
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+ .btn button {
+    
+    background-color: #4400B8;
+    color: white;
+    border: none;
+    font-size: 3.5vh;
+    border-radius: 2vh;
+    width: 12vw;
+    height: 10vh;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    box-shadow: 5px 10px 15px 1px black;
+}
+
+ .btn button:active {
+    transform: scale(0.98);
+}
+
+ /*WebKits*/
+ .inps input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px black inset !important; /* Cor de fundo preta */
+    -webkit-text-fill-color: white !important; /* Cor do texto branca */
+    }
+
+    .inps input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 30px black inset !important; /* Cor de fundo preta ao focar */
+    -webkit-text-fill-color: white !important; /* Cor do texto branca ao focar */
+}
+
+#h1f{ 
+    position: relative;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 6vh;
+    z-index: 2;
+}
+
+
+.logo-wrapper {
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Ajuste o tamanho conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#img1{
+    height: 90vh;
+    max-width: 100vh; 
+}
+

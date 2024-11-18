@@ -1,0 +1,60 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Cor de fundo e estilo geral da página */
+body {
+    background-color: #1A0C43;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo da barra de navegação */
+nav {
+    width: 100%;
+    background-color: #2A1B6E;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Lista de itens do menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo dos itens de menu */
+nav ul li {
+    display: inline-block;
+}
+
+/* Estilo dos links da barra de navegação */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre os links */
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Estilo da mensagem de boas-vindas */
+.welcome-message {
+    font-size: 3em;
+    margin-top: 80px; /* Dá espaço para a navbar fixa */
+}
